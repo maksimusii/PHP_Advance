@@ -1,0 +1,19 @@
+/*Стиль для картинок*/
+.gallery {
+    display: flex;
+}
+
+.gallery li{
+    margin-left: 20px;
+    list-style: none;
+  }
+
+.image  {
+    outline: 2px solid #00af64;
+    display: flex;
+    justify-self: start;
+    margin-bottom: 20px;
+  }
+.image:hover{
+    outline: 0px;
+  }
