@@ -1,0 +1,40 @@
+.remove:hover, .buyme:hover, .submit_order:hover, .yet:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.remove, .buyme, .submit_order, .yet {
+    text-decoration: underline;
+    color: blue;
+}
+.field {
+    display: flex;
+    justify-content: space-between;
+}
+.field_new {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 70px;
+   
+}
+.description {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+.description_new {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px;
+}
+.description label {
+    width: 200px;
+}
+.description_new label {
+    width: 250px;
+}
+li {
+    list-style: none;
+}
+
+  
