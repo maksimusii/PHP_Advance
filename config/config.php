@@ -6,8 +6,8 @@ return [
 
 	"db"=>[
 		"dsn"=>"mysql:host=localhost;dbname=shop",
-		"user"=>"root",
-		"password"=>"root01"
+		"user"=>"alex",
+		"password"=>"1q2w3e"
 	],
 
 	"router" => [

@@ -71,15 +71,9 @@ class AuthController extends BaseController {
 		if (!$login || !$password) {
 			$this->request->redirect("/?path=auth/signup&message=Login and password are required");
 		}
+
 		$userModel = new UserModel();
-	
-		
-		if (empty($userModel->getUserByLogin($login))) {
-			$userModel->createUser($firstname, $login, $password);
-		} else {
-			$this->request->redirect("/?path=auth/signup&message=User with Login: " . $login . " already exist");
-		}
-		
+		$userModel->createUser($firstname, $login, $password);
 
 		$this->session->set("user", $user);
 		$this->request->redirect("/?path=user/index");
